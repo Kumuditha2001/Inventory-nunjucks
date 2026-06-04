@@ -1,0 +1,33 @@
+{
+  "name": "inventory-nunjucks",
+  "version": "1.0.0",
+  "description": "Inventory management project using Nunjucks.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumuditha2001/Inventory-nunjucks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kumuditha2001/Inventory-nunjucks/issues"
+  },
+  "homepage": "https://github.com/Kumuditha2001/Inventory-nunjucks#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "nunjucks": "^3.2.4",
+    "passport": "^0.7.0"
+  }
+}
