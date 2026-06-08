@@ -5,6 +5,7 @@ const itemSchema = new mongoose.Schema({
     price: Number,
     stock: Number,
     category: String
+    // CI/CD Test
 });
 
 module.exports = mongoose.model("item", itemSchema);
